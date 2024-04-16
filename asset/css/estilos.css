@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.fondo{
+    min-height: 100vh;
+}
+.fondo_menu{
+    background-color: #212529;
+}
+.boton{
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: .2s;
+}
+.boton:hover{
+    border: 1px solid gray;
+    color: gray;
+}
+.fondo-login{
+    background-color: rgba(0, 0, 0, 0.983);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+.login{
+    color: white;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgb(51, 47, 47);
+}
+.icon, .titulo{
+    text-align: center;
+    color: white;
+}
+.titulo{
+    margin-bottom: 12px;
+}
+.icon .dog-icon{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+.box-eye {
+  position: relative;
+}
+
+.box-eye button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+
+.changePassword {
+  color: rgb(51, 47, 47);
+  cursor: pointer;
+}
+  
+.position {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+.slider {
+    background-image: url(http://localhost/login/img/slide.jpg);
+    background-size: cover;
+    height: 85%;
+    width: 75%;
+    animation: animate 30s infinite;
+}
+@keyframes animate {
+    15% {
+        background-image: url(http://localhost/login/img/slide6.jpg);
+        background-size: cover;
+    }
+    30% {
+        background-image: url(http://localhost/login/img/slide5.jpg);
+        background-size: cover;
+    }
+    45% {
+        background-image: url(http://localhost/login/img/slide4.jpg);
+        background-size: cover;
+    }
+    60% {
+        background-image: url(http://localhost/login/img/slide3.jpg);
+        background-size: cover;
+    }
+    75% {
+        background-image: url(http://localhost/login/img/slide2.jpg);
+        background-size: cover;
+        object-fit: cover;
+    }
+    100% {
+        background-image: url(http://localhost/login/img/slide1.jpg);
+        background-size: cover;
+    }
+}
